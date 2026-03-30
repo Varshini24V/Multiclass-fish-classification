@@ -12,15 +12,11 @@ The project includes:
 **Approaches:**
 
 1️) Building a CNN model from scratch
+
 2️) Using Transfer Learning with pre-trained models such as: VGG16, ResNet50, MobileNet, InceptionV3, EfficientNetB0
-3️) Model Comparison: Compare different deep learning models based on: Accuracy, Precision, Recall, F1-score, Confusion Matrix
+
+3️) Model Comparison: Compare different deep learning models based on: Accuracy, Precision, Recall, F1-score, Confusion Matrix 
+
 4) Training performance was also visualized using:
       - Accuracy vs Epoch
       - Loss vs Epoch
-
-**Features of the App**
-
- - Upload fish images
- - Predict fish species
- - Display prediction confidence
- - Simple and interactive UI
