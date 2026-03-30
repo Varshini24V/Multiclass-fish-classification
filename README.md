@@ -1,22 +1,46 @@
 **Project Overview**
 
-This project focuses on classifying fish images into multiple categories using Deep Learning techniques. The system trains a Convolutional Neural Network (CNN) from scratch and also leverages Transfer Learning with pre-trained models to improve performance.
+This project focuses on the classification of fish images into multiple categories using advanced Deep Learning techniques. It involves building a Convolutional Neural Network (CNN) from scratch as well as applying Transfer Learning to enhance classification performance.
 
-The project includes:
-  - Data preprocessing and augmentation
-  - Model training and comparison
-  - Model evaluation and visualization
-  - Model saving
-  - Deployment using Streamlit for real-time predictions.
+The dataset used for this project is organized into training, validation, and testing sets, containing various fish categories such as bass, trout, shrimp, sea bream etc.
 
-**Approaches:**
+**Dataset:**
+https://drive.google.com/drive/folders/1iKdOs4slf3XvNWkeSfsszhPRggfJ2qEd
 
-1️) Building a CNN model from scratch
+**Key Features of the Project**
+Data preprocessing and image augmentation to improve model robustness
+Development of a custom CNN architecture
+Implementation of transfer learning using pre-trained models
+Comprehensive model evaluation and performance comparison
+Visualization of training metrics (accuracy and loss)
+Saving trained models for reuse
+Deployment using Streamlit for real-time fish classification
 
-2️) Using Transfer Learning with pre-trained models such as: VGG16, ResNet50, MobileNet, InceptionV3, EfficientNetB0
+**Approaches Used**
 
-3️) Model Comparison: Compare different deep learning models based on: Accuracy, Precision, Recall, F1-score, Confusion Matrix 
+1. Custom CNN Model
+A deep learning model is built from scratch to learn feature representations directly from the dataset.
 
-4) Training performance was also visualized using:
-      - Accuracy vs Epoch
-      - Loss vs Epoch
+2. Transfer Learning
+Pre-trained models are leveraged to improve performance and reduce training time, including:
+
+VGG16
+ResNet50
+MobileNet
+InceptionV3
+EfficientNetB0
+
+3. Model Evaluation & Comparison
+Models are evaluated and compared using key performance metrics:
+
+Accuracy
+Precision
+Recall
+F1-Score
+Confusion Matrix
+
+4. Training Visualization
+Model performance during training is analyzed using:
+
+Accuracy vs Epoch
+Loss vs Epoch
