@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 
 # Load trained model
-model = tf.keras.models.load_model("models/fish_classifier.h5")
+model = tf.keras.models.load_model("best_model.keras")
 
 class_names = [
     'animal fish',
